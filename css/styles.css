@@ -1,0 +1,95 @@
+header {
+    font-size: 3em;
+    text-align: center;
+    color: #130f05;
+    background-color: #d9d9d9;
+}
+
+p {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #333;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #969696;
+}
+
+.menu {
+    background-color: #beb9b9;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+    text-align: center;
+    width: 80%;
+}
+
+.menu ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.centrar {
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+.lugares {
+  padding: 0;
+  list-style: none;
+}
+
+
+img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.banner {
+    text-align: left;
+}
+
+.current {
+    background-color: #d9d9d9;
+    color: #000;
+}
+
+.banner-image {
+    float: right;
+    background-color: #d9d9d9;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 50%;
+}
